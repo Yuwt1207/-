@@ -1,0 +1,524 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>TravelDemand</class>
+ <widget class="QDialog" name="TravelDemand">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>560</width>
+    <height>475</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>560</width>
+    <height>475</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>560</width>
+    <height>475</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <widget class="QLabel" name="label_4">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>100</y>
+     <width>101</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>途经城市选择:</string>
+   </property>
+  </widget>
+  <widget class="QWidget" name="widget_6" native="true">
+   <property name="geometry">
+    <rect>
+     <x>40</x>
+     <y>120</y>
+     <width>527</width>
+     <height>159</height>
+    </rect>
+   </property>
+   <layout class="QVBoxLayout" name="verticalLayout">
+    <item>
+     <widget class="QWidget" name="widget_3" native="true">
+      <layout class="QHBoxLayout" name="horizontalLayout_3">
+       <item>
+        <widget class="QCheckBox" name="pass_A">
+         <property name="text">
+          <string>成都</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QCheckBox" name="pass_B">
+         <property name="text">
+          <string>重庆</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QCheckBox" name="pass_C">
+         <property name="text">
+          <string>武汉</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QCheckBox" name="pass_D">
+         <property name="text">
+          <string>合肥</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QCheckBox" name="pass_E">
+         <property name="text">
+          <string>南京</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+    </item>
+    <item>
+     <widget class="QWidget" name="widget_4" native="true">
+      <layout class="QHBoxLayout" name="horizontalLayout_4">
+       <item>
+        <widget class="QCheckBox" name="pass_F">
+         <property name="text">
+          <string>昆明</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QCheckBox" name="pass_G">
+         <property name="text">
+          <string>贵阳</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QCheckBox" name="pass_H">
+         <property name="text">
+          <string>长沙</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QCheckBox" name="pass_I">
+         <property name="text">
+          <string>南昌</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QCheckBox" name="pass_J">
+         <property name="text">
+          <string>杭州</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+    </item>
+    <item>
+     <widget class="QWidget" name="widget_5" native="true">
+      <layout class="QHBoxLayout" name="horizontalLayout_5">
+       <item>
+        <widget class="QCheckBox" name="pass_K">
+         <property name="text">
+          <string>上海</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QCheckBox" name="pass_L">
+         <property name="text">
+          <string>南宁</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QCheckBox" name="pass_M">
+         <property name="text">
+          <string>广州</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QCheckBox" name="pass_N">
+         <property name="text">
+          <string>福州</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QCheckBox" name="pass_P">
+         <property name="text">
+          <string>香港</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QLabel" name="label_5">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>280</y>
+     <width>111</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>旅行策略选择:</string>
+   </property>
+  </widget>
+  <widget class="QWidget" name="widget_8" native="true">
+   <property name="geometry">
+    <rect>
+     <x>130</x>
+     <y>410</y>
+     <width>271</width>
+     <height>50</height>
+    </rect>
+   </property>
+   <layout class="QHBoxLayout" name="horizontalLayout_6">
+    <item>
+     <widget class="QPushButton" name="btn_travel_ok">
+      <property name="text">
+       <string>确定</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <spacer name="horizontalSpacer">
+      <property name="orientation">
+       <enum>Qt::Horizontal</enum>
+      </property>
+      <property name="sizeHint" stdset="0">
+       <size>
+        <width>40</width>
+        <height>20</height>
+       </size>
+      </property>
+     </spacer>
+    </item>
+    <item>
+     <widget class="QPushButton" name="btn_travel_quit">
+      <property name="text">
+       <string>取消</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QWidget" name="widget_9" native="true">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>20</y>
+     <width>351</width>
+     <height>65</height>
+    </rect>
+   </property>
+   <layout class="QHBoxLayout" name="horizontalLayout_7">
+    <item>
+     <widget class="QWidget" name="widget" native="true">
+      <layout class="QHBoxLayout" name="horizontalLayout">
+       <item>
+        <widget class="QLabel" name="label">
+         <property name="text">
+          <string>出发地:</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QComboBox" name="departure">
+         <item>
+          <property name="text">
+           <string>成都</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>重庆</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>武汉</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>合肥</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>南京</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>昆明</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>贵阳</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>长沙</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>南昌</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>杭州</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>上海</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>南宁</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>广州</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>福州</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>香港</string>
+          </property>
+         </item>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+    </item>
+    <item>
+     <widget class="QWidget" name="widget_2" native="true">
+      <layout class="QHBoxLayout" name="horizontalLayout_2">
+       <item>
+        <widget class="QLabel" name="label_2">
+         <property name="text">
+          <string>目的地:</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QComboBox" name="destination">
+         <item>
+          <property name="text">
+           <string>成都</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>重庆</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>武汉</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>合肥</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>南京</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>昆明</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>贵阳</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>长沙</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>南昌</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>杭州</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>上海</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>南宁</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>广州</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>福州</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>香港</string>
+          </property>
+         </item>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QLabel" name="label_6">
+   <property name="geometry">
+    <rect>
+     <x>240</x>
+     <y>280</y>
+     <width>111</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>限定时间设置:</string>
+   </property>
+  </widget>
+  <widget class="QGroupBox" name="groupBox">
+   <property name="geometry">
+    <rect>
+     <x>40</x>
+     <y>300</y>
+     <width>156</width>
+     <height>110</height>
+    </rect>
+   </property>
+   <property name="title">
+    <string/>
+   </property>
+   <layout class="QVBoxLayout" name="verticalLayout_2">
+    <item>
+     <widget class="QRadioButton" name="strategy1">
+      <property name="text">
+       <string>最省钱</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QRadioButton" name="strategy2">
+      <property name="text">
+       <string>最省时间</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QRadioButton" name="strategy3">
+      <property name="text">
+       <string>限定时间最省钱</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QWidget" name="widget_7" native="true">
+   <property name="geometry">
+    <rect>
+     <x>240</x>
+     <y>310</y>
+     <width>211</width>
+     <height>43</height>
+    </rect>
+   </property>
+   <layout class="QHBoxLayout" name="horizontalLayout_8">
+    <item>
+     <widget class="QSpinBox" name="strategy3_day"/>
+    </item>
+    <item>
+     <widget class="QLabel" name="label_8">
+      <property name="text">
+       <string>天(d)</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QSpinBox" name="strategy3_hour"/>
+    </item>
+    <item>
+     <widget class="QLabel" name="label_7">
+      <property name="text">
+       <string>时(h)</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <tabstops>
+  <tabstop>pass_J</tabstop>
+  <tabstop>pass_A</tabstop>
+  <tabstop>pass_B</tabstop>
+  <tabstop>pass_C</tabstop>
+  <tabstop>pass_D</tabstop>
+  <tabstop>pass_E</tabstop>
+  <tabstop>pass_G</tabstop>
+  <tabstop>pass_H</tabstop>
+  <tabstop>pass_I</tabstop>
+  <tabstop>departure</tabstop>
+  <tabstop>pass_K</tabstop>
+  <tabstop>pass_L</tabstop>
+  <tabstop>pass_M</tabstop>
+  <tabstop>pass_N</tabstop>
+ </tabstops>
+ <resources/>
+ <connections/>
+</ui>

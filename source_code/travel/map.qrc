@@ -1,0 +1,31 @@
+<RCC>
+    <qresource prefix="/">
+        <file>map.png</file>
+        <file>city/Changsha.png</file>
+        <file>city/Chengdu.png</file>
+        <file>city/Chongqing.png</file>
+        <file>city/Fuzhou.png</file>
+        <file>city/Guangzhou.png</file>
+        <file>city/Guiyang.png</file>
+        <file>city/Hangzhou.png</file>
+        <file>city/Hefei.png</file>
+        <file>city/Hongkong.png</file>
+        <file>city/Kunming.png</file>
+        <file>city/Nanchang.png</file>
+        <file>city/Nanjing.png</file>
+        <file>city/Nanning.png</file>
+        <file>city/Shanghai.png</file>
+        <file>city/Wuhan.png</file>
+        <file>map2.png</file>
+        <file>clock.jpg</file>
+        <file>vehicles/timg.jpg</file>
+        <file>query.jpg</file>
+        <file>clock2.jpg</file>
+        <file>test.txt</file>
+        <file>vehicles/arrive.ico</file>
+        <file>vehicles/car.ico</file>
+        <file>vehicles/pause.ico</file>
+        <file>vehicles/plane.ico</file>
+        <file>vehicles/train.ico</file>
+    </qresource>
+</RCC>
